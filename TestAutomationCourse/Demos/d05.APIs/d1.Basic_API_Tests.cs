@@ -29,7 +29,7 @@ namespace TestAutomationCourse.Demos.d05.APIs
             var response = await client.GetAsync(request);
 
             string body = response.Content;
-            Assert.That (body, Does.Contain("Leanne Graham"));
+            Assert.That (body, Does.Contain("Bret"));
         }
 
         [Test]

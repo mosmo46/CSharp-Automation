@@ -14,7 +14,7 @@ namespace TestAutomationCourse.Exercises.e04.Xml
         [SetUp]
         public void Setup()
         {
-            using (var sr = new StreamReader(".//Exercises//e05.JSON//Beatles.json"))
+            using (var sr = new StreamReader(@"C:\Users\User\OneDrive\Moshe Yaso Work\C#Projects\CSharp-Automation\TestAutomationCourse\Exercises\e05.JSON\Beatles.json"))
             {
                 var reader = new JsonTextReader(sr);
                 jsonBeatles = JObject.Load(reader);

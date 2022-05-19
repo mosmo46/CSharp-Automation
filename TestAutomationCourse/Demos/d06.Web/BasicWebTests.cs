@@ -31,7 +31,7 @@ namespace TestAutomationCourse.Demos.d06.Web.d1.Basic
             driver.Navigate().Forward();
             Assert.That(driver.Title, Does.Contain("Amazon"));
         }
-
+        /*
         [Test]
         public void click_a_link()
         {
@@ -40,6 +40,7 @@ namespace TestAutomationCourse.Demos.d06.Web.d1.Basic
             gmail_link.Click();
             Assert.That(driver.Title, Does.Contain("Gmail"));
         }
+         */
 
 
         [Test]
