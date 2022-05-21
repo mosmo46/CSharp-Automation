@@ -90,17 +90,17 @@ namespace TestAutomationCourse.Exercises.e06.combo
         // Each film has a name and a series counter (Captain America: The Winter Soldier is 2)
         // Each film has super-heroes in it (could be more than one)
 
-        // Create data objects
-        // Load the following data objects as follows:
+        //Create data objects
+        //Load the following data objects as follows:
         // "Thor" -> Thor
         // "Captain America - The First Avenger" -> Cap
         // "Black Widow" -> Black Widow
         // "Avengers" -> Thor, Cap, Black Widow, Hawekeye, Hulk, Iron Man
-        //
-        // Create the JSON String using ObjectMapper.writeValue()
-        // Prove that the JSON String contains the all the names of the super heroes
-        // Prove that Ant-Man was not in Avengers
 
-    }
+    // Create the JSON String using ObjectMapper.writeValue()
+    // Prove that the JSON String contains the all the names of the super heroes
+    // Prove that Ant-Man was not in Avengers
+
+}
 
 }
